@@ -1,0 +1,10 @@
+// Kush n Gunz — Half-Life mod definition
+game "Kush n Gunz"
+startmap "kng_m1_shirts"
+trainmap "kng_m1_shirts"
+type "singleplayer_only"
+gamedll "dlls\hl.dll"
+gamedll_linux "dlls/hl.so"
+gamedll_osx "dlls/hl.dylib"
+cldll "1"
+version "0.0.1"

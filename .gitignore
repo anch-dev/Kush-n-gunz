@@ -1,0 +1,36 @@
+# Map compile leftovers
+*.bsp.bak
+*.prt
+*.pts
+*.lin
+*.log
+*.err
+*.wa_
+*.ext
+*.hlextract
+*.bak
+src/maps/autosave/
+
+# Model compile leftovers
+*.mdl.bak
+
+# Build output (keep folders, ignore binaries until releases)
+kng/dlls/*.dll
+kng/dlls/*.so
+kng/dlls/*.dylib
+kng/cl_dlls/*.dll
+kng/cl_dlls/*.so
+kng/cl_dlls/*.dylib
+*.pdb
+*.obj
+*.ilk
+build/
+
+# Blender
+*.blend1
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/
